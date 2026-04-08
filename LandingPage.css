@@ -1,0 +1,75 @@
+body{
+    color: rgb(0, 0, 0);
+    background-image: url(https://i.pinimg.com/1200x/cd/a3/a1/cda3a1bf1a3db02e925e5a3605bf1114.jpg);
+    background-size: 1550px 800px;
+
+}
+
+.navbar ul{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 1px;
+    gap: 10px;
+    background-color:#262626;
+    color: white;
+    
+}
+.navbar ul li{
+    justify-content: center;
+    align-content: center;
+    padding: 0px 2px;
+    list-style: none;
+    font-size: 32px;
+    
+}
+
+.navbar ul li img{
+    width: 150px;
+    height: 70px;
+    
+}
+
+
+.navbar ul li a button:hover{
+    color: #262626;
+    background-color: white;
+}
+
+.navbar a button{
+    font-size: x-large;
+    border: 2px solid white;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: #262626;
+}
+a{
+        text-decoration: none;
+}
+
+.tombol h1{
+    padding: 10px 0px;
+    margin: 0px 550px;
+    background-color: #fce205;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    
+}
+.tombol h1:hover{
+    padding: 10px 0px;
+    margin: 0px 550px;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: black;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
