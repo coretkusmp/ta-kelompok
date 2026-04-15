@@ -70,16 +70,29 @@ a{
 }
 
 .productbox{
-    padding: 10px;
-        background-color: #363636;
+    list-style: none;
+    width: 200px;
+    background-color: #363636;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s;
 }
 
 .recommend{
     padding: 20px;
-    background-color: #262626;
+    background-color: rgba(38, 38, 38, 0.9);
     border: 1px solid white;
-    display: flex;
+    
+    display: flex;        
+    flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
+    
+    margin-bottom: 50px;
 }
 .Terpopuler .productbox img{
     width: 200px;
@@ -91,10 +104,15 @@ a{
 }
 .Terpopuler{
     padding: 20px;
-    background-color: #262626;
+    background-color: rgba(38, 38, 38, 0.9);
     border: 1px solid white;
-    display: flex;
+    
+    display: flex;         
+    flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
+    
+    margin-bottom: 50px;
 }
 button.prev{
     border-radius: 100px;
@@ -103,4 +121,21 @@ button.prev{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.productbox:hover{
+    transform: translateY(-5px);
+    background-color: #454545;
+}
+.productbox img{
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.productbox p{
+    font-size: 14px;
+    color: white;
+    margin: 5px 0 0 0;
 }
