@@ -1,5 +1,7 @@
 body{
     background-image: url(https://i.pinimg.com/1200x/cd/a3/a1/cda3a1bf1a3db02e925e5a3605bf1114.jpg);
+    background-size: 1550px;
+    background-attachment: fixed;
     color: white;
     transform: .55s ;
 }
