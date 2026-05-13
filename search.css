@@ -63,6 +63,7 @@ a{
 }
 
 input{
+    border-radius: 100px;
     border: 1px solid white;
     background-color: black;
     color: white;
@@ -70,4 +71,5 @@ input{
     height: 25px;
     margin: 0px 600px;
 }
+
 

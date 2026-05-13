@@ -73,3 +73,24 @@ a{
     text-decoration: none;
     color: white;
 }
+
+
+.search-box {
+    margin-left: auto; 
+    align-self: center; 
+    padding-right: 20px;
+}
+
+.search-box input {
+    margin-right: 20px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background: #333;
+    color: white;
+    outline: none;
+}
+.search-box input:focus {
+    border-color: #ffa500;
+}
+

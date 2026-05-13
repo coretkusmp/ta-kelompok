@@ -282,6 +282,7 @@ body {
 }
 
 .search-box input {
+    margin-right: 20px;
     padding: 8px 15px;
     border-radius: 20px;
     border: 1px solid white;
