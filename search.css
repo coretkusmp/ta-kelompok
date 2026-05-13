@@ -59,12 +59,12 @@ body{
     background-color: #262626;
 }
 a{
-        text-decoration: none;
+    text-decoration: none;
 }
 
 input{
     border-radius: 100px;
-    border: 1px solid white;
+    border: 2px solid white;
     background-color: black;
     color: white;
     width: 300px;
