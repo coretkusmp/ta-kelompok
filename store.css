@@ -85,6 +85,12 @@ a{
     background-color: gray;
     cursor: pointer;
 }
+.productbox:hover{
+    transition-duration: 0.5s;
+    text-shadow: 0px 0px 10px #ffa500,
+                 0px 0px 20px #ffa500;
+                 
+}
 .productbox h1{
     font-size: 24px;
     margin: 10px;
@@ -93,6 +99,7 @@ a{
     margin: 10px;
     font-size: large;
 }
+
 .productbox del{
     font-size: 16px;
     margin: 10px;

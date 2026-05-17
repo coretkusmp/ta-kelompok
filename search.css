@@ -135,6 +135,13 @@ input{
     background-color: white;
 }
 
+.productbox:hover{
+    transition-duration: 0.5s;
+    text-shadow: 0px 0px 10px #ffa500,
+                 0px 0px 20px #ffa500;
+                 
+}
+
 /* .buttonKeranjang {
     display: flex;
     flex-direction: column;
