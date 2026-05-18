@@ -268,7 +268,6 @@ body {
     .navbar ul {
         flex-direction: column;
     }
- 
     .navbar ul li {
         font-size: 20px;
         padding: 10px;

@@ -5,7 +5,8 @@ body{
     color: white;
     transform: .55s ;
 }
-    h2{
+
+h2{
     width: 200px;
     background-color:#ffa500;
     border-radius: 10px;
@@ -13,6 +14,7 @@ body{
     display: flex;
     justify-content: center;
 }
+
 .recommendtext{
     color: black;
 }
@@ -25,8 +27,8 @@ body{
     gap: 10px;
     background-color:#262626;
     color: white;
-    
 }
+
 .navbar ul li{
     justify-content: center;
     align-content: center;
@@ -48,6 +50,7 @@ body{
     background-color: white;
 }
 
+
 .navbar a button{
     font-size: x-large;
     border: 2px solid white;
@@ -58,6 +61,7 @@ body{
     color: white;
     background-color: #262626;
 }
+
 a{
     text-decoration: none;
 }
@@ -101,14 +105,17 @@ input{
     background-color: gray;
     cursor: pointer;
 }
+
 .productbox h1{
     font-size: 24px;
     margin: 10px;
 }
+
 .productbox p{
     margin: 10px;
     font-size: large;
 }
+
 .productbox del{
     font-size: 16px;
     margin: 10px;
@@ -116,14 +123,6 @@ input{
 
 
 .productbox img{
-    /* width: 210px;
-    height: 210px;
-    padding: 0px 0px;
-    margin: 55px 35px;
-    border: 10px solid #262626;
-    border-radius: 50px;
-    color: #262626; */
-
     width: 80%;
     height: auto;
     aspect-ratio: 1 / 1;
@@ -141,14 +140,6 @@ input{
                  0px 0px 20px #ffa500;
                  
 }
-
-/* .buttonKeranjang {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    /* justify-content: flex-end;
-    align-content: flex-end;
-/* } */
 
 .productbox button{
     margin: 10px;
