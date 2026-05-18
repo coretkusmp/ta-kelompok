@@ -61,17 +61,18 @@ body{
 a{
         text-decoration: none;
 }
-.recommend .productbox img{
+.recommend li.productbox img{
     width: 200px;
     height: 200px;
     
 }
-.recommend .productbox{
+.recommend li.productbox{
     list-style: none;
-
+    height: 250px;
 }
 
-.productbox{
+
+li.productbox{
     list-style: none;
     width: 200px;
     background-color: #363636;
@@ -159,4 +160,16 @@ button.prev{
 .search-box input:focus {
     border-color: #ffa500;
 }
+
+.productbox:hover{
+    transition-duration: 0.5s;
+    text-shadow: 0px 0px 10px #ffa500,
+                 0px 0px 20px #ffa500;
+                 
+    box-shadow: 0px 0px 10px #ffa500,
+                0px 0px 30px #ffa500;
+                
+}
+
+
 
