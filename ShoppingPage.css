@@ -12,7 +12,6 @@ body {
 }
 
 .navbar ul {
-  border: 1px solid white;
   display: flex;
   flex-direction: row;
   margin: 0px 1px;
