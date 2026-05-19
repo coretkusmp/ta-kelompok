@@ -102,6 +102,15 @@ input {
   cursor: pointer;
 }
 
+.productbox button:hover{
+  transition-duration: .6s;
+  background-color: #eaeaea;
+  box-shadow: 
+  0px 0px 10px #ffa500,
+  0px 0px 20px #ffa500
+  ;
+}
+
 .productbox h1 {
   font-size: 24px;
   margin: 10px;
@@ -131,9 +140,7 @@ input {
 
 .productbox:hover {
   transition-duration: 0.5s;
-  text-shadow:
-    0px 0px 10px #ffa500,
-    0px 0px 20px #ffa500;
+  background-color: black;
 }
 
 .productbox button {
